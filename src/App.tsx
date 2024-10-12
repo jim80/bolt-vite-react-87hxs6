@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import DrawingList from './components/DrawingList';
 import DrawingCard from './components/DrawingCard';
 import SearchForm from './components/SearchForm';
