@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import DrawingList from './components/DrawingList';
 import DrawingCard from './components/DrawingCard';
 import SearchForm from './components/SearchForm';
@@ -51,7 +51,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-4 sm:p-8">
+    <div className="min-h-screen bg-gray-900 p-4 sm:p-8">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold mb-8 text-center text-indigo-600">Drawing Gallery</h1>
         <SearchForm onSearch={handleSearch} />
